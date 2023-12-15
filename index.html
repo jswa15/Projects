@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Layout Example</title>
+  <style>
+    body{
+      background-image: url(bg.jpg);
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .container {
+      display: flex;
+    }
+
+    .sidebar {
+      width: 5%;
+      background-color: transparent;
+      padding: 20px;
+      margin-top: 10px;
+      color: #fff;
+    }
+    .sidebar .sidenav a{
+      color: #fff;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 10px;
+      margin-top: 20px;
+
+    }
+    .sidebar .sidenav a:hover{
+      color: red;
+    }
+
+    .content {
+      flex-grow: 1;
+      padding: 20px;
+    }
+
+    .header {
+      background-color: transparent;
+      color: #000;
+      padding: 20px;
+      text-align: center;
+      color: #fff;
+    }
+
+    /* Additional styling */
+    h1 {
+      margin: 0;
+      padding: 0;
+    }
+
+    p {
+      margin: 0 0 20px 0;
+    }
+    .box1 img {
+      width: 40%;
+      margin-left: 75px;
+    }
+    .box1 p{
+      color: #fff;
+    }
+
+    .box img {
+      width: 29.3%;
+      padding: 20px;
+      margin-bottom: 20px;
+    }
+    .box p {
+      width: 28.75%;
+      padding: 20px;
+      margin-bottom: 20px;
+      color: #000;
+      margin: 0 0 20px 0;
+      display: inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="sidebar">
+      <h1>Menu</h1>
+      <div class="sidenav">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#clients">Clients</a>
+      <a href="#contact">Contact</a>
+      <a href="#Login">Login</a>
+      <a href="#SignUp">SignUp</a>
+    </div>
+    </div>
+    <div class="content">
+      <div class="header">
+        <h1>FIND AND ENJOY YOUR BEAUTIFUL SPOTS</h1>
+        <p>Learn More...</p>
+      </div>
+      <div class="box1">
+        <img src="5.jpg"> 
+        <img src="4.jpg">
+      </div>
+      <div class="box">
+        <img src="1.jpg">
+        <img src="2.jpg">
+        <img src="3.jpg">
+      </div>
+      <div class="box">
+        <p>A beach is a narrow strip of land separating a body of water from inland areas. Beaches are usually made of sand, tiny grains of rocks and minerals that have been worn down by constant pounding by wind and waves.</p>
+        <p>A beach is a narrow strip of land separating a body of water from inland areas. Beaches are usually made of sand, tiny grains of rocks and minerals that have been worn down by constant pounding by wind and waves.</p>
+        <p>A beach is a narrow strip of land separating a body of water from inland areas. Beaches are usually made of sand, tiny grains of rocks and minerals that have been worn down by constant pounding by wind and waves.</p>
+        
+      </div>
+      </div>
+      
+  </div>
+</body>
+</html>
